@@ -1,0 +1,74 @@
+najayaku@LC6RN6C2 MINGW64 /c/git/Git
+$ git init
+Initialized empty Git repository in C:/git/Git/.git/
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ ls -la
+total 24
+drwxr-xr-x 1 najayaku 1049089    0 May 13 16:05 ./
+drwxr-xr-x 1 najayaku 1049089    0 Apr 29 19:34 ../
+drwxr-xr-x 1 najayaku 1049089    0 May 13 16:05 .git/
+-rw-r--r-- 1 najayaku 1049089 2113 Apr 29 19:33 git_basic.txt
+-rw-r--r-- 1 najayaku 1049089 8649 Apr 12 14:14 gitPractice.txt
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ ls -la .git
+total 11
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 ./
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 ../
+-rw-r--r-- 1 najayaku 1049089 130 May 13 16:05 config
+-rw-r--r-- 1 najayaku 1049089  73 May 13 16:05 description
+-rw-r--r-- 1 najayaku 1049089  23 May 13 16:05 HEAD
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 hooks/
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 info/
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 objects/
+drwxr-xr-x 1 najayaku 1049089   0 May 13 16:05 refs/
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git add .
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 1913a51] Initial commit
+ 2 files changed, 323 insertions(+)
+ create mode 100644 gitPractice.txt
+ create mode 100644 git_basic.txt
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log
+commit 1913a515ef3a787a1890f57a19e42612bd9d4b80 (HEAD -> master)
+Author: najayaku <nataraj.jayakumar@al-enterprise.com>
+Date:   Mon May 13 16:08:30 2019 +0530
+
+    Initial commit
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git help log
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log -n 0
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log -n 1
+commit 1913a515ef3a787a1890f57a19e42612bd9d4b80 (HEAD -> master)
+Author: najayaku <nataraj.jayakumar@al-enterprise.com>
+Date:   Mon May 13 16:08:30 2019 +0530
+
+    Initial commit
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log --since=2019-05-13
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log --since=2019-05-14
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$ git log --grep="Init"
+commit 1913a515ef3a787a1890f57a19e42612bd9d4b80 (HEAD -> master)
+Author: najayaku <nataraj.jayakumar@al-enterprise.com>
+Date:   Mon May 13 16:08:30 2019 +0530
+
+    Initial commit
+
+najayaku@LC6RN6C2 MINGW64 /c/git/Git (master)
+$

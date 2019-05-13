@@ -1,0 +1,262 @@
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config --global user.name "najayaku"
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config --global user.email "nataraj.jayakumar@al-enterprise.com"
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config list
+error: key does not contain a section: list
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+credential.helper=manager
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+http.proxy=http://192.168.254.49:8080/proxy.pac
+gui.recentrepo=D:/React/workspace/training
+gui.recentrepo=D:/React/training/day-2/salaryExample
+gui.recentrepo=D:/React/workspace/bugtracker
+gui.recentrepo=D:/angularJS/repo/angularClass
+gui.recentrepo=D:/angularJS/repo/quickstart-master/repoB/bug
+gui.recentrepo=D:/angularJS/repo/redux
+gui.recentrepo=D:/angularJS/redux_sample/script
+user.name=najayaku
+user.email=nataraj.jayakumar@al-enterprise.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+ ESCOC
+
+
+w64/ssl/certs/ca-bundle.crt
+
+
+
+
+oxy.pac
+ng
+alaryExample
+cker
+Class
+art-master/repoB/bug
+
+/script
+
+se.com
+
+
+
+
+
+
+ ESCOD
+rebase.autosquash=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+credential.helper=manager
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+http.proxy=http://192.168.254.49:8080/proxy.pac
+gui.recentrepo=D:/React/workspace/training
+gui.recentrepo=D:/React/training/day-2/salaryExample
+gui.recentrepo=D:/React/workspace/bugtracker
+gui.recentrepo=D:/angularJS/repo/angularClass
+gui.recentrepo=D:/angularJS/repo/quickstart-master/repoB/bug
+gui.recentrepo=D:/angularJS/repo/redux
+gui.recentrepo=D:/angularJS/redux_sample/script
+user.name=najayaku
+user.email=nataraj.jayakumar@al-enterprise.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config user.name
+najayaku
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config user.mail
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config user.email
+nataraj.jayakumar@al-enterprise.com
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ ls -la
+total 42818
+drwxr-xr-x 1 najayaku 1049089        0 May 13 15:41  ./
+drwxr-xr-x 1 najayaku 1049089        0 Jun  7  2018  ../
+drwxr-xr-x 1 najayaku 1049089        0 Oct 27  2018  .android/
+-rw-r--r-- 1 najayaku 1049089      117 Jul 30  2016  .apmrc
+-rw-r--r-- 1 najayaku 1049089      145 May 21  2016  .appletviewer
+drwxr-xr-x 1 najayaku 1049089        0 Jun  8  2018  .atom/
+-rw-r--r-- 1 najayaku 1049089     2974 May 13 15:13  .bash_history
+drwxr-xr-x 1 najayaku 1049089        0 Aug 17  2017  .config/
+drwxr-xr-x 1 najayaku 1049089        0 May 11  2016  .eclipse/
+drwxr-xr-x 1 najayaku 1049089        0 Apr 27  2016  .gem/
+drwxr-xr-x 1 najayaku 1049089        0 Oct  3  2018  .git/
+-rw-r--r-- 1 najayaku 1049089      548 May 13 15:41  .gitconfig
+-rw-r--r-- 1 najayaku 1049089       33 Apr 27  2016  .gtkrc-2.0
+drwxr-xr-x 1 najayaku 1049089        0 Mar 25  2017  .idlerc/
+drwxr-xr-x 1 najayaku 1049089        0 Mar 30  2017  .jalopy.15/
+-rw-r--r-- 1 najayaku 1049089     2591 Oct 20  2016  .java.policy
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  .javahg/
+drwxr-xr-x 1 najayaku 1049089        0 Oct  4  2016  .jenkins/
+drwxr-xr-x 1 najayaku 1049089        0 May 11  2016  .jmc/
+drwxr-xr-x 1 najayaku 1049089        0 Jun  6  2016  .jprofiler9/
+-rw-r--r-- 1 najayaku 1049089     3818 Apr  8 12:13  .kdiff3rc
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  .m2/
+drwxr-xr-x 1 najayaku 1049089        0 Oct 18  2018  .matplotlib/
+drwxr-xr-x 1 najayaku 1049089        0 Jun  2  2016  .nbprofiler/
+-rw-r--r-- 1 najayaku 1049089       99 Oct  5  2018  .npmrc
+drwxr-xr-x 1 najayaku 1049089        0 Jun  6  2016  .oracle_jre_usage/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  .p2/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  7  2017  .PyCharmCE2017.1/
+drwxr-xr-x 1 najayaku 1049089        0 Nov  1  2016  .QtWebEngineProcess/
+-rw-r--r-- 1 najayaku 1049089      218 Aug 10  2015  .recently-used.xbel
+drwxr-xr-x 1 najayaku 1049089        0 Jan 24  2018  .sonar/
+drwxr-xr-x 1 najayaku 1049089        0 Jan 18  2018  .sonarlint/
+drwxr-xr-x 1 najayaku 1049089        0 Feb 18  2017  .ssh/
+drwxr-xr-x 1 najayaku 1049089        0 May 29  2018  .swex/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  .swt/
+-rw-r--r-- 1 najayaku 1049089     1388 Apr 12 14:08  .viminfo
+drwxr-xr-x 1 najayaku 1049089        0 Apr 10 18:22  .VirtualBox/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  2 18:46  .vscode/
+-rw-r--r-- 1 najayaku 1049089      222 Jul  2  2018  4760Config.properties
+-rw-r--r-- 1 najayaku 1049089     1067 Mar 30  2016  AgentLog_10101-486141.txt
+drwxr-xr-x 1 najayaku 1049089        0 Jan  8  2018  AppData/
+lrwxrwxrwx 1 najayaku 1049089       33 Jan  8  2018 'Application Data' -> /d/Users/najayaku/AppData/Roaming/
+-rw-r--r-- 1 najayaku 1049089   113256 Mar 30  2016  bookmarks.html
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016 'Common application settings HP-IT'/
+drwxr-xr-x 1 najayaku 1049089        0 Nov  2  2018  Contacts/
+lrwxrwxrwx 1 najayaku 1049089       59 Jan  8  2018  Cookies -> /d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Cookies/
+-rw-r--r-- 1 najayaku 1049089      816 Jun 18  2018  copy.txt
+drwxr-xr-x 1 najayaku 1049089        0 May 10 16:29  Desktop/
+-rw-r--r-- 1 najayaku 1049089     1292 Aug 16  2016  desktop_icon.vbs
+drwxr-xr-x 1 najayaku 1049089        0 Apr 10 18:06  Documents/
+drwxr-xr-x 1 najayaku 1049089        0 May 13 15:17  Downloads/
+drwxr-xr-x 1 najayaku 1049089        0 Nov  2  2018  Favorites/
+-rw-r--r-- 1 najayaku 1049089   141624 Aug 10  2018  file.log
+-rw-r--r-- 1 najayaku 1049089      816 Apr  4  2016  file.txt
+-rw-r--r-- 1 najayaku 1049089      242 Jul 24  2018  file1.log
+-rw-r--r-- 1 najayaku 1049089     2059 Apr 16  2015  hcheckfix.vbs
+drwxr-xr-x 1 najayaku 1049089        0 Apr 13  2016  ICE/
+-rw-r--r-- 1 najayaku 1049089      120 Jun  2  2016  ICEconfig.properties
+-rw-r--r-- 1 najayaku 1049089  5871733 Apr 13  2016  l2.300.20_en_US
+-rw-r--r-- 1 najayaku 1049089       34 Aug 22  2018  learn_to_code_checklist.md
+drwxr-xr-x 1 najayaku 1049089        0 May 12 20:41  Links/
+lrwxrwxrwx 1 najayaku 1049089       31 Jan  8  2018 'Local Settings' -> /d/Users/najayaku/AppData/Local/
+-rw-r--r-- 1 najayaku 1049089  5890048 Sep 14  2016  m1.300.0_en_US
+-rw-r--r-- 1 najayaku 1049089  6030050 Jul  2  2018  m3.402.10_en_US
+-rw-r--r-- 1 najayaku 1049089     1375 May 16  2018  mercurial.ini
+-rw-r--r-- 1 najayaku 1049089  8528918 May  1  2018  MSI332weqr.log
+drwxr-xr-x 1 najayaku 1049089        0 Apr  3 12:29  Music/
+lrwxrwxrwx 1 najayaku 1049089       27 Jan  8  2018 'My Documents' -> /d/Users/najayaku/Documents/
+drwxr-xr-x 1 najayaku 1049089        0 Oct  7  2018  my_project/
+lrwxrwxrwx 1 najayaku 1049089       69 Jan  8  2018  NetHood -> '/d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 najayaku 1049089      183 Jul  4  2018  nmc5_4.0.cfg
+drwxr-xr-x 1 najayaku 1049089        0 Dec 10  2016  node_modules/
+-rw-r--r-- 1 najayaku 1049089 12845056 May 13 15:42  NTUSER.DAT
+-rw-r--r-- 1 najayaku 1049089   262144 May 13 15:42  ntuser.dat.LOG1
+-rw-r--r-- 1 najayaku 1049089        0 Jan  8  2018  ntuser.dat.LOG2
+-rw-r--r-- 1 najayaku 1049089    65536 Jan  8  2018  NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM.blf
+-rw-r--r-- 1 najayaku 1049089   524288 Jan  8  2018  NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 najayaku 1049089   524288 Jan  8  2018  NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 najayaku 1049089    65536 Apr  8 10:57  NTUSER.DAT{659da818-59be-11e9-a919-005056c00008}.TM.blf
+-rw-r--r-- 1 najayaku 1049089   524288 Apr  8 10:57  NTUSER.DAT{659da818-59be-11e9-a919-005056c00008}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 najayaku 1049089   524288 Apr  8 10:57  NTUSER.DAT{659da818-59be-11e9-a919-005056c00008}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 najayaku 1049089       20 Jan  8  2018  ntuser.ini
+-r--r--r-- 1 najayaku 1049089     6676 Nov 15 10:40  ntuser.pol
+drwxr-xr-x 1 najayaku 1049089        0 May 12 20:41  OneDrive/
+drwxr-xr-x 1 najayaku 1049089        0 Jan 27 08:10  Pictures/
+lrwxrwxrwx 1 najayaku 1049089       69 Jan  8  2018  PrintHood -> '/d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+-rw-r--r-- 1 najayaku 1049089      600 Mar 23  2016  PUTTY.RND
+drwxr-xr-x 1 najayaku 1049089        0 Apr 19  2017  PycharmProjects/
+lrwxrwxrwx 1 najayaku 1049089       58 Jan  8  2018  Recent -> /d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Recent/
+-rw-r--r-- 1 najayaku 1049089   111339 Jun  9  2018  RechargeReceiptTataDocomo.pdf
+-rw-r--r-- 1 najayaku 1049089      760 Aug 12  2016  remove_shortcut.vbs
+drwxr-xr-x 1 najayaku 1049089        0 Nov  2  2018 'Saved Games'/
+drwxr-xr-x 1 najayaku 1049089        0 Nov  2  2018  Searches/
+lrwxrwxrwx 1 najayaku 1049089       58 Jan  8  2018  SendTo -> /d/Users/najayaku/AppData/Roaming/Microsoft/Windows/SendTo/
+-rw-r--r-- 1 najayaku 1049089      360 Sep 30  2015  shortcut_remove.vbs
+lrwxrwxrwx 1 najayaku 1049089       62 Jan  8  2018 'Start Menu' -> '/d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Start Menu'/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  target/
+lrwxrwxrwx 1 najayaku 1049089       61 Jan  8  2018  Templates -> /d/Users/najayaku/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  Tracing/
+drwxr-xr-x 1 najayaku 1049089        0 Apr 12 14:15  Videos/
+drwxr-xr-x 1 najayaku 1049089        0 Mar 23 11:50 'VirtualBox VMs'/
+drwxr-xr-x 1 najayaku 1049089        0 Apr  4  2016  workspace/
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ cat .gitconfig
+[filter "lfs"]
+        smudge = git-lfs smudge -- %f
+        required = true
+        clean = git-lfs clean -- %f
+[http]
+        proxy = http://192.168.254.49:8080/proxy.pac
+[gui]
+        recentrepo = D:/React/workspace/training
+        recentrepo = D:/React/training/day-2/salaryExample
+        recentrepo = D:/React/workspace/bugtracker
+        recentrepo = D:/angularJS/repo/angularClass
+        recentrepo = D:/angularJS/repo/quickstart-master/repoB/bug
+        recentrepo = D:/angularJS/repo/redux
+        recentrepo = D:/angularJS/redux_sample/script
+[user]
+        name = najayaku
+        email = nataraj.jayakumar@al-enterprise.com
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config --global core.editor "mate -wl1"
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ git config --global color.ui true
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$ cat .gitconfig
+[filter "lfs"]
+        smudge = git-lfs smudge -- %f
+        required = true
+        clean = git-lfs clean -- %f
+[http]
+        proxy = http://192.168.254.49:8080/proxy.pac
+[gui]
+        recentrepo = D:/React/workspace/training
+        recentrepo = D:/React/training/day-2/salaryExample
+        recentrepo = D:/React/workspace/bugtracker
+        recentrepo = D:/angularJS/repo/angularClass
+        recentrepo = D:/angularJS/repo/quickstart-master/repoB/bug
+        recentrepo = D:/angularJS/repo/redux
+        recentrepo = D:/angularJS/redux_sample/script
+[user]
+        name = najayaku
+        email = nataraj.jayakumar@al-enterprise.com
+[core]
+        editor = mate -wl1
+[color]
+        ui = true
+
+najayaku@LC6RN6C2 MINGW64 ~ (master)
+$
