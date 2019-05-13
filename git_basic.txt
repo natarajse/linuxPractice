@@ -1,0 +1,37 @@
+1.What a commit is;
+
+A "commit" is used to save your changes to the local repository.
+
+2. What the point of the git log command is;
+
+Git logs allow you to review and read a history of everything that happens to a repository
+
+3. What a branch is;
+
+A branch in Git is simply a lightweight movable pointer to one of these commits.
+
+
+
+Imagine you’re talking to a friend who’s familiar with web development but has never used Git. How would you present these concepts to them?
+
+Git is a Distributed Version Control System. So Git does not necessarily rely on a central server to store all the versions of a project’s files.
+Git helps you keep track of the changes you make to your code. 
+
+web development code, you can manage via git\github repository.
+ 
+Git also helps you synchronise code between multiple people. So imagine you and your friend are collaborating on a project. 
+You both are working on the same project files. Now Git takes those changes you and your friend made independently and merges them to a single “Master” repository. 
+So by using Git you can ensure you both are working on the most recent version of the repository. 
+
+Use below command for git basic operation:
+git --version
+git init 
+git clone remote url(repo)
+git add is a command used to add a file that is in the working directory to the staging area.
+git commit is a command used to add all files that are staged to the local repository.
+git push is a command used to add all committed files in the local repository to the remote repository. So in the remote repository, all files and changes will be visible to anyone with access to the remote repository.
+git fetch is a command used to get files from the remote repository to the local repository but not into the working directory.
+git merge is a command used to get the files from the local repository into the working directory.
+git pull is command used to get files from the remote repository directly into the working directory. It is equivalent to a git fetch and a git merge .
+git stash - you can put your code in local and test
+
